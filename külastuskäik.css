@@ -50,9 +50,7 @@ body, html{
 }
 *{
     -webkit-transition-property: all;
-    transition-property: all;
 	-webkit-transition-duration: .2s;
-    transition-duration: .2s;
     -moz-transition-timing-function: cubic-bezier(100,50,21,6);
 	-moz-transition-property: all;
     -moz-transition-timing-function: cubic-bezier(100,50,21,6);
@@ -76,11 +74,11 @@ body, html{
     left: 4vw;
     border: none;
     color: darkred;
-    padding: 15px 32px;
+    padding: 1vw 2vw;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 32px;
+    font-size: 1.5vw;
 }
 .nupp:hover{
     background-color: dimgray;
