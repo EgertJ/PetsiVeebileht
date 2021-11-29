@@ -16,6 +16,13 @@ body, html{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.bg3{
+    background-image: url("ärikaksikud.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .nimi{
     position: absolute;
     left:2%;
