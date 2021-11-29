@@ -34,6 +34,7 @@ body, html{
     color:white;
     font-family:'Courier New', Courier, monospace;
     text-align: center;
+    font-size: 1.2vw;
 }
 #info{
     color:white;
@@ -67,4 +68,18 @@ body, html{
     background: #fff;
     padding:1vw 1vw;
     color: #1b1b1b;
+}
+.nupp{
+    position: absolute;
+    left: 7vw;
+    border: none;
+    color: darkred;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+}
+.nupp:hover{
+    background-color: dimgray;
 }
