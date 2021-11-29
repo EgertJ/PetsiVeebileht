@@ -1,0 +1,106 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.bg{
+    background-image: url("võsapets.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg2{
+    background-image: url("võsapets1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.info{
+    position: absolute;
+    left:2%;
+    top: 50%;
+    color: black;
+    font-size: 1.5vw;
+    letter-spacing: 0.1vw;
+    line-height: 0.7vw;
+}
+.menüü{
+    position: absolute;
+    right: 27vw;
+    top:4%;
+}
+*{
+    -webkit-transition-property: all;
+	-webkit-transition-duration: .2s;
+    -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+	-moz-transition-property: all;
+    -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+}
+.btn{
+    color:white;
+    padding: 0.5vw 1vw;
+    font-size: 1.5vw;
+    text-decoration: none;
+    letter-spacing: 0.2vw;
+}
+.btn:hover{
+    border: none;
+    background: #fff;
+    padding:1vw 1vw;
+    color: #1b1b1b;
+}
+.info_kast{
+    width: 40em;
+    height: 20em;
+    position:relative;
+    background-color: white;
+    opacity: 70%;
+    top: 30%;
+    left:30%;
+    padding: 2vw;
+}
+.info_tekst{
+    position: absolute;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    line-height: 1.1em;
+}
+.pleier{
+    position: relative;
+    left: 47em;
+    bottom: -19em;
+}
+.footer{
+    background-color: black;
+    width:100%;
+    height:2em;
+    position: relative;
+}
+.footer_tekst{
+    color:white;
+    font-size: 0.6em;
+    position: absolute;
+    right:10%;
+}
+  @media screen and (max-width:760px) {
+    .info_kast{
+        width: 25em;
+        height: 12em;
+        position:relative;
+        background-color: white;
+        opacity: 70%;
+        top: 20%;
+        left:20%;
+        padding: 1vw;
+    }
+    .info_tekst{
+        position: absolute;
+        font-size: 0.6em;
+        letter-spacing: 0.1em;
+        line-height: 1.1em;
+    }
+  }

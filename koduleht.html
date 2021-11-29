@@ -1,31 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="koduleht_stylesheet.css">
+    <link rel="stylesheet" href="koduleht.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="koduleht.js"></script>
 <title>Peeter Võsa</title>
 </head>
 <body>
     <div class="bg">
-        <div class="nimi">
+        <div class="info">
             <h1>Peeter Võsa</h1>
+            <p>Teleajakirjanik, poliitik</p>
+            <p>ja XII Riigikogu liige</p>
         </div>
-    <div class="info">
-        <h1 id="info_pealkiri">
-            Infot Peeter Võsast
-        </h1>
-        <p id="info">
-            Peeter Võsa (52) on endine eesti teleajakirjanik ja poliitik, XII Riigikogu liige.
-            Tema juhitud überpopulaarsed saated on olnud "Võsareporter", "Politseinädal", 
-            "Kriminaalkroonika", "Politseikroonika", "Baar", "Saaga", "Võimalik vaid Eestimaal". 
-            Ta on kuulunud Isamaa ja Res Publica Liidu ridadesse ja Keskerakonda. 2014. aastal süüdistati Keskerakonna fraktsiooni liiget 
-            Peeter Võsa rassismis ja ta saadeti partei aukohtu ette. Samal aastal avaldas Võsa arvamust, et Eesti poliitika on räpasem, kui ta oletas.
-        </p>
+        <div class="menüü">
+        <a href="koduleht.html" class = "btn">Koduleht</a>
+        <a href="võsareporter.html" class = "btn">Võsareporter</a>
+        <a href="külastuskäik.html" class = "btn">Külastuskäik</a>
+        </div>
     </div>
-    <div class="menüü">
-    <a href="koduleht.html" class = "btn">Koduleht</a>
-    <a href="võsareporter.html" class = "btn">Võsareporter</a>
-    <a href="külastuskäik.html" class = "btn">Külastuskäik</a>
-</div>
+    <div class="bg2">
+        <div class="info_kast">
+        <p class = "info_tekst">Peeter Võsa ehk Võsa-Pets (sündinud 28. detsembril 1967 Tallinnas) on endine eesti teleajakirjanik ja poliitik, XII Riigikogu liige. Tema juhitud saated on "Võsareporter", "Politseinädal", "Kriminaalkroonika", "Politseikroonika", "Baar", "Saaga", "Võimalik vaid Eestimaal" .
+
+            Ta on kuulunud Isamaa ja Res Publica Liidu ridadesse ja Keskerakonda. 2014. aastal süüdistati Keskerakonna fraktsiooni liiget Peeter Võsa rassismis ja ta saadeti partei aukohtu ette. Samal aastal avaldas Võsa arvamust, et Eesti poliitika on räpasem, kui ta oletas.
+            
+            Võsa on paistnud silma värvikate ja rahvalike sõnavõttudega. Nii on ta immigratsiooni ja pagulaste teemal ütelnud: "Igatahes, olge valmis – mustmiljon hämarat tegu võib olla meie poole teel. Praegu on need plaanid kõik veel võib-olla peidus hallides ajurakkudes pruunide silmade taga mustade mõtete laekas."[1]
+            
+            Tuntuse tipus on politsei teda korduvalt kainenema viinud ja ta on joobes peaga avalikes kohtades vahele jäänud.
+            
+            2018. aasta intervjuus rääkis Võsa-Pets "Reporterile" oma uuest raamatust "Kadunud Eesti", milles käsitletakse "Politseikroonika" aegseid lugusid, ehk teisisõnu kirjutas Võsa prostituutidest ja politseist.
+        </p>
+        </div>
+        <!-- Youtube player on saadud lehelt https://pretagteam.com/question/how-to-add-a-button-to-play-youtube-video-full-screen-using-javascript -->
+        <div class="pleier"><iframe id="player" type="text/html" width="390" height="220" src="https://www.youtube.com/embed/y38F42QqDXU" frameborder="0" allowfullscreen>
+        </iframe>
+    </div>
+    </div>
+    <div class="footer">
+        <p class="footer_tekst">
+            ©2021
+        </p>
     </div>
 </body>
 </html>
