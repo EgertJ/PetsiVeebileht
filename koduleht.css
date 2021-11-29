@@ -69,11 +69,6 @@ body, html{
     letter-spacing: 0.1em;
     line-height: 1.1em;
 }
-.pleier{
-    position: relative;
-    left: 47em;
-    bottom: -19em;
-}
 .footer{
     background-color: black;
     width:100%;
@@ -104,3 +99,8 @@ body, html{
         line-height: 1.1em;
     }
   }
+  #player{
+    position:relative;
+    bottom:-33vh;
+    left:40%;
+}
