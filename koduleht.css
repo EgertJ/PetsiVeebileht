@@ -102,8 +102,3 @@ body, html{
         line-height: 1.1em;
     }
   }
-  #player{
-    position:relative;
-    bottom:-33vh;
-    left:40%;
-}
