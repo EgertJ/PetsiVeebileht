@@ -74,11 +74,11 @@ body, html{
     left: 4vw;
     border: none;
     color: darkred;
-    padding: 15px 32px;
+    padding: 1vw 2vw;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 32px;
+    font-size: 1.5vw;
 }
 .nupp:hover{
     background-color: dimgray;
