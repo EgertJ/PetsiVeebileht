@@ -2,13 +2,6 @@ body, html{
     height: 100%;
     margin: 0;
 }
-.bg{
-    background-image: url("võsapets.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .bg2{
     background-image: url("võsareporter.jpg");
     height: 100%;
@@ -31,10 +24,23 @@ body, html{
     font-family:'Courier New', Courier, monospace;
     font-size: 2vw;
 }
-.info{
+.info1{
     position: absolute;
     width:20vw;
     height: 25vw;
+    background-color: black;
+    opacity: 0.7;
+    padding-top: 1vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-bottom: 4vw;
+    left:2%;
+    top:10vw;
+}
+.info2{
+    position: absolute;
+    width:20vw;
+    height: 30vw;
     background-color: black;
     opacity: 0.7;
     padding-top: 1vw;
@@ -81,4 +87,9 @@ body, html{
     background: #fff;
     padding:1vw 1vw;
     color: #1b1b1b;
+}
+.pilt{
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
 }
